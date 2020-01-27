@@ -1,0 +1,2075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A decentralized blockchain based system to
+         solve any kind of issues and problems without going through a
+         centralised government or an organisation by rewarding users to spread
+         awareness and help each other.">
+<meta name="author" content="">
+<meta name="google-site-verification" content="uZBkT2z6iGP-rEZ-rHkyaF10engh2szi61NgnSFQJ2k" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138676911-1" type="      eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ=-text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138676911-1');
+      </script>
+<title>Enlte - A decentralised SocioNet</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous" type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script><script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous" type="      eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<link rel="icon" type="image/png" href="enlte.png" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/animationn.css" rel="stylesheet">
+<script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="  eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         $(window).load(function(){
+              $('.loader').fadeOut();
+         });
+        
+      </script>
+<script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         var myTimeone = "America/Toronto";
+         var countDownDate = new Date("September 7, 2018 23:59:50 GMT -07:00" ).getTime();
+          // Update the count down every 1 second
+         var x = setInterval(function() {
+             // Get today's date and time
+             var now = new Date().getTime();
+             // Find the distance between now and the target date
+             var distance = countDownDate - now;
+             // Time calculations for days, hours, minutes and seconds
+             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 *
+         60 * 60));
+             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 *
+         60));
+             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+             var miliseconds = Math.floor((distance % (1000 * 60 * 60 * 24 )) / 1000);
+        
+             // Output the result in an element with id="demo"
+             document.getElementById("days").innerHTML = days+"\n" + " DAYS";
+              document.getElementById("hours").innerHTML = hours + "h : ";
+               document.getElementById("minutes").innerHTML = minutes + "m : "
+             document.getElementById("seconds").innerHTML = seconds + "s";
+          document.getElementByClassName("box-counter hours").innerHTML = hours;
+             // If the count down is over, write some text
+             if (distance < 0) {
+                 clearInterval(x);
+                 document.getElementByClassName("demo").innerHTML = "EXPIRED";
+             }
+         }, 1000);
+      </script>
+<style>    
+         /*
+         Credit to the bootstrap team for making an amazing framework
+         Credit to me for making this look shiny
+         Hope it helps anyone wanting to customize progress bars
+         */
+         /* general */
+         .bg-red { background-color: #FF3B3F;}
+         .bg-purple {  background-color: #1b69b7;}
+         .bg-grey {  background-color: lightgrey;}
+         /* replace bg-purple with bg-pgrad if you want a gradient on main bar */
+         .bg-pgrad {
+         background: -webkit-linear-gradient(left, #0ECBF9, #2c78c5 ); /* For Safari 5.1 to 6.0 */
+         background: -o-linear-gradient(right, #0ECBF9, #2c78c5); /* For Opera 11.1 to 12.0 */
+         background: -moz-linear-gradient(right, #0ECBF9, #2c78c5); /* For Firefox 3.6 to 15 */
+         background: linear-gradient(to right, #0ECBF9, #2c78c5); /* Standard syntax */
+         }
+         /* bar */
+         .nicebar-container { max-width: 600px;}
+         .nicebar { }
+         .progress {  border-radius: 65px;  height: 48px;  background-color: #bdf0fd;}
+         .prog-text {
+         text-align: right;
+         font-size: 12px;
+         padding-top: 21px;
+         padding-right: 0.3rem;
+         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+         }
+         .current-text {
+         text-align: right;
+         font-size: 15px;
+         padding-top: 20px;
+         padding-right: 0.3rem;
+         }
+         @media (min-width: 768px) {
+         .current-text {
+         font-size: 1.8em;
+         }
+         }
+         .smalleth {
+         width: 30px;
+         height: 30px;
+         position: relative;
+         left: calc(70% - 15px);
+         }
+         .mainbar {
+         width: 50%;
+         border-right: medium solid #1766b5;
+         }
+         .moonbar {
+         width: 25%;
+         }
+         .otherbar {
+         width: 25%;
+         }
+      </style>
+<style>
+         @import url('https://fonts.googleapis.com/css?family=Montserrat');
+         er .preloader {
+         position: fixed;
+         top:0;
+         left:0;
+         bottom: 0;
+         right: 0;
+         background: #fff;
+         z-index: 99999;
+         }
+         .preloader .preloader-gif {
+         display: block;
+         width: 80px;
+         height: 80px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         margin: -40px 0 0 -40px;
+         background: url('default-logo-gif.gif') no-repeat;
+         }
+         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #preloader {
+         position: fixed;
+         top:0;
+         left:0;
+         bottom: 0;
+         right: 0;
+         background: #fff;
+         z-index: 99999;
+         }
+         #preloader .preloader-gif {
+         display: block;
+         width: 80px;
+         height: 80px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         margin: -40px 0 0 -40px;
+         background: url('preloader.gif') no-repeat;
+         }
+         #bgvid {
+         position: fixed;
+         top: 50%;
+         left: 50%;
+         min-width: 100%;
+         min-height: 100%;
+         width: auto;
+         height: auto;
+         z-index: -100;
+         transform: translateX(-50%) translateY(-50%);
+         background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+         background-size: cover;
+         transition: 1s opacity;
+         }
+         .mebutton21 {
+         font-family: 'Montserrat', sans-serif;
+         color: #FFF;
+         text-align: center;
+         padding: 7px 30px 3px 30px;
+         text-decoration: none;
+         border: 2px #FFFFFF solid;
+         border-radius: 8px;
+         /* margin-top: 10px; */
+         margin-left: 10px;
+         background: none;
+         font-size: 14px;
+         box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+         animation: shadowtok 1s linear infinite;
+         }
+         #vid {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         min-width: 100%;
+         min-height: 100%;
+         width: auto;
+         height: auto;
+         z-index: -100;
+         transform: translateX(-50%) translateY(-50%);
+         background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+         background-size: cover;
+         transition: 1s opacity;
+         }
+         .stopfade {
+         opacity: .5;
+         }
+         .shine-me {
+         -webkit-animation-name:ShineAnimation;z-index: 9999;
+         -webkit-animation-duration:4s; border-radius: 3px;
+         -webkit-animation-iteration-count:infinite;
+         -webkit-animation-timing-function:cubic-bezier(.12, .89, .98, .47)
+         }
+         @-webkit-keyframes ShineAnimation {
+         from {
+         background-repeat:no-repeat; z-index: 9999;
+         background-image:-webkit-linear-gradient( top left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.5) 52%, rgba(255, 255, 255, 0.0) 57%, rgba(255, 255, 255, 0.0) 100% );
+         background-position:-250px -250px;
+         background-size:600px 600px
+         }
+         to {
+         background-repeat:no-repeat;
+         background-position:250px 250px
+         }
+         media screen and (max-width: 500px) {
+         div {
+         width:70%;
+         }
+         }
+         @media screen and (max-device-width: 600px) {
+         body {
+         background:url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed;
+         }
+         .mebutton21 {
+         display:none;
+         }
+         #vid {
+         display: none;
+         }
+         }
+      </style>
+<script type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         $(document).ready(function(){
+        
+         $("#softwareform").submit(function(e){
+         //alert('testssdfgdsfgdfgdg');
+        
+         /* var fname= $('#fname').val('');
+         var lname= $('#lname').val('');
+         var emailaddress= $('#emailaddress').val('');
+         var location= $('#location').val(''); */
+         /* if(fname=='' and lname=='' and emailaddress=='' and
+         location==''){
+         var fname= $('#fname').val('');
+         var lname= $('#lname').val('');
+         var emailaddress= $('#emailaddress').val('');
+         var location= $('#location').val('');
+        
+         } */
+        
+            e.preventDefault();
+            $.ajax({
+                type : 'POST',
+                data: $("#softwareform").serialize(),
+                url : 'http://web.enlte.com/dataform.php',
+                success : function(data){
+                 // alert(data);
+                    $("#thankyouModal").modal("show");
+                }
+            });
+            return false;
+         });
+        
+         });
+      </script>
+
+
+<link href="css/io.css" rel="stylesheet">
+<style>
+         .text-uppercase {
+         text-transform: uppercase !important;
+         margin-top: 144px;
+         font-size: 33px;
+         font-weight: 100;
+         margin-bottom: 30px;
+         }
+         /* Desktops and laptops ----------- */
+         @media only screen and (min-width : 1224px) {
+         /* Styles */ .text-uppercase {
+         margin-left: 240px;
+         }
+         }
+         /* Large screens ----------- */
+         @media only screen and (min-width : 1700px) {
+         .text-uppercase {
+         margin-left: 311px;
+         }
+         }
+         @media all and (max-width: 1400px) and (min-width: 1224px) {
+         .blockchainlearnmore {
+         margin-left: 350px;
+         }
+         }
+         .rounded-circle.img-responsive {
+         width: 140px;
+         height: 140px;
+         }
+         .asseenheading {
+         color: rgb(255, 255, 255);
+         visibility: visible;
+         animation-name: fadeInUp;
+         font-size: 30px;
+         margin-top: 20px;
+         margin-left: 0px;
+         width:100%;
+         margin-bottom: 10px;
+         }
+         #hdrTxt {
+         font-size: 26px;
+         margin: 40px;
+         margin-left: 140px;
+         }
+         .founder > h2 {
+         font-size: 15px;
+         font-weight: 700;
+         margin-top: 5px;
+         margin-bottom: 0px;
+         color: #fff;
+         }
+         .founder > p {
+         margin-bottom: 0px;
+         font-size: 11px;
+         line-height: 1.5;
+         margin-bottom: 10px;
+         color: #fff;
+         }
+         .device-mockup.iphone6_plus.portrait.white > .device, .device-mockup.iphone6_plus.white > .device {
+         background-image:
+         url(iphone_6_plus/iphone_6_plus_white_port.png);
+         }
+         .col-md-12.text-center {
+         margin-bottom: 67px;
+         }
+         a {
+         color: #101211;
+         }
+         ul a {
+         color: #fff;
+         }
+         section {
+         padding: 30px 0;
+         padding-bottom: 0px;
+         }
+         .social-contact .fa {
+         margin-right: 20px;
+         margin-left: 0px;
+         }
+         .social-contact .fa {
+         border: 2px solid #fff;
+         color: #fff;
+         font-size: 18px;
+         height: 35px;
+         margin-left: 20px;
+         padding-top: 7px;
+         text-align: center;
+         text-decoration: none;
+         width: 35px;
+         margin-bottom: 10px;
+         border-radius: 50%;
+         }
+         footer {
+         text-align: center;
+         color: rgba(255, 255, 255, .3);
+         }
+         .follow {
+         color: #fff;
+         font-size: 18px;
+         font-weight: 600;
+         font-family: 'Didact Gothic', sans-serif;
+         margin-right: 20px;
+         margin-top: 8px;
+         }
+         .disclaimer {
+         color: #fff;
+         font-size: 14px;
+         font-weight: 599;
+         margin-right: 20px;
+         margin-top: 8px;
+         text-align: center;
+         }
+         .copyright.wow.fadeInUp.text-center {
+         font-size: 16px;
+         color: #fff;
+         }
+         .col-sm-3.col-md-4 {
+         margin-top: 36px;
+         }
+         .footer-section {
+         display: none;
+         }
+         .h5, h5 {
+         font-size: 1.5rem;
+         }
+         p {
+         font-size: 16px;
+         line-height: 1.5;
+         margin-bottom: 20px;
+         }
+         .sociallogo ul li {
+         display: inline;
+         }
+         li {
+         list-style: outside none none;
+         }
+         li a:hover {
+         background-color:#0a99b3;
+         }
+         .active1 {
+         background-color:#0a99b3;
+         }
+         .text-center {
+         text-align: center;
+         }
+         .sociallogo {
+         background:none;
+         }
+         .pad50 {
+         padding: 50px 0px;
+         }
+         footer {
+         background-color: black;
+         }
+         .sociallogo ul li a img {
+         padding: 0 10px 15px;opacity:0.5;
+         width: 10%;
+         }
+         .sociallogo ul li a:hover{ background:inherit !important;}
+         .sociallogo ul li a img:hover{ background:inherit !important; opacity:1;}
+         .social_logos_img {
+         height: 40;
+         width: 40;
+         }
+         .col-sm-6 {
+         width: 50%;
+         float: left;
+         }
+         .col-md-3 {
+         width: 25%;
+         }
+         timer1 li {
+         float: left;
+         font-size: 20px;
+         color: #000;
+         width: 150px;
+         border: #000 3px solid;
+         padding: 25px;
+         background: white;
+         }
+         .container-fluid {
+         width: 100%;
+         padding-right: 15px;
+         padding-left: 15px;
+         margin-right: auto;
+         margin-left: -50px;
+         margin-top: -70px;
+         }
+         #registerfrm {
+         display: block;
+         width: 15%;
+         padding: .375rem .75rem;
+         font-size: 1rem;
+         line-height: 1.5;
+         color: #495057;
+         background-color: #fff;
+         background-image: none;
+         background-clip: padding-box;
+         border: 1px solid #ced4da;
+         border-radius: .25rem;
+         font-weight: 400;
+         margin-left: 439px;
+         transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+         }
+         @media all and (max-width: 1824px) and (min-width: 1400px) {
+         .text-uppercase {
+         margin-left: 360px;
+         }
+         .headingblockchain {
+         margin-left: 290px;
+         }
+         .blockchainlearnmore {
+         margin-left: 450px;
+         }
+         .gray-wrapper {
+         background-color:#000;
+         }
+         .gray-wrapper .row {
+         width: 70%;
+         margin: 0 auto;
+         padding: 3em 0 2em 0;
+         margin-top:100px;
+         }
+         .gray-wrapper .row h3 {
+         text-align: center;
+         font-size: 2em;
+         }
+         .news-wrapper {
+         background-color: #ededed;
+         padding: 1em;
+         }
+         .news-wrapper #feature {
+         font-weight: bold;
+         font-size: 1.5em;
+         position: relative;
+         color: grey;
+         }
+         .news-wrapper ul {
+         text-align: center;
+         list-style-type: none;
+         }
+         .news-wrapper ul li {
+         padding: 2%;
+         position: relative;
+         }
+         .news-wrapper ul li #economist {
+         height: 40px;
+         }
+         .news-wrapper ul li #new-york-times {
+         height: 30px;
+         }
+         .news-wrapper ul li #techcrunch {
+         height: 30px;
+         }
+         .news-wrapper ul li #bloomberg {
+         height: 30px;
+         }
+         .news-wrapper ul li #more {
+         height: 35px;
+         }
+         .news-wrapper ul li #forbes {
+         height: 22px;
+         padding-bottom: 7px;
+         }
+         .learn-more {
+         text-align: center;
+         }
+         .learn-more p {
+         font-size: 20px;
+         }
+         .learn-more p .fa {
+         padding-left: 10px;
+         }
+         }
+         @media (min-width: 481px) and (max-width: 767px) {
+         .home_top_play h3 {
+         text-align: center !important;
+         }
+         .home_top_play {
+         text-align: center !important;
+         }
+         .live_cowndown ul{ margin-right: 0px; }
+         .live_cowndown ul li {
+         width: 36px; line-height: 30px;
+         }
+         .live_cowndown ul li span {
+         font-size: 33px;line-height: 41px;
+         }
+         .live_cowndown ul h5 {
+         display: inline-block;
+         vertical-align: top;
+         font-size: 27px;
+         margin-top: 3px;
+         }
+         .live_cowndown ul li p{ font-size: 8px; }
+         .sec_video_bar iframe {
+         margin-bottom: 20px !important;
+         width: 100% !important;
+         height: auto !important;
+         margin-left: 0px !important;
+         }
+         .home_feature_m_n ul{ margin-right: 0px; }
+         .home_feature_m_n ul li {
+         display: inline-block;
+         margin: 13px 0%;
+         text-align: center;
+         }
+         .sociallogo ul li a img {
+         padding: 0 10px 15px;
+         opacity: 0.5;
+         width: 93px;
+         }
+         #mainNav .navbar-nav > li > a, #mainNav .navbar-nav > li > a:focus{ color: #efefef !important;
+         font-size: 15px;
+         padding-left: 8px; }
+         }
+         @media (min-width: 320px) and (max-width: 480px) {
+         #mainNav .navbar-nav > li > a, #mainNav .navbar-nav > li > a:focus{ color: #efefef !important;
+         font-size: 15px;
+         padding-left: 8px; }
+         section.download{ padding: 15px 0; }
+         section.download h2 {
+         font-size: 25px;
+         }
+         section.download .badges{ margin-top: 10px; }
+         .home_video_t{ padding: 10px; }
+         .home_video_t iframe{ width: 100% !important; height: auto !important; margin-bottom: 0px; }
+         .sec_video_bar{ padding: 10px; display: block; }
+         .sec_video_bar iframe{ margin-bottom: 20px !important; width: 100% !important; height: auto !important; margin-left: 0px !important; }
+         .section2nd { padding: 27px 0px 23px 0px; background: #efefef; }
+         .section2nd .card_img{ width: 100%; }
+         .home_card_text { text-align: center;}
+         .home_card_text h3{ font-size: 27px; text-align: center; }
+         .home_card_text p {   font-size: 16px;text-align: center; line-height: 21px; margin-top: 2px;}
+         .home_card_text p br{ display: none;  }
+         .section3nd .heading3{ font-size: 27px; }
+         .section3nd .ptext3{ padding: 0px 15px; }
+         .section3nd .ptext4{ padding-top: 16px; }
+         .section3nd .ptext3-1{ font-size: 15px; padding: 41px 10px 0px 10px; }
+         .feature_enlte h3{ font-size: 21px; }
+         .feature_enlte .col-md-5 img{ width: 100%; }
+         .token_economy h3{ font-size: 23px; }
+         .token_economy > center{ padding-top: 10px !important; }
+         .timeline_n_home h1{ font-size: 45px; line-height: 21px; }
+         .timeline_n_home {  background: #000;  padding: 27px 0;  text-align: center;}
+         .timeline_n_home h2 { font-size: 19px;  margin-top: 15px;
+         letter-spacing: 1px;
+         line-height: 20px;
+         }
+         .timeline_n_home ul{ margin-right: 0px; margin-top: 25px; }
+         .timeline_n_home ul li {   width: 49%; margin-bottom: 10px;}
+         .timeline_n_home ul li p{ font-size: 11px; }
+         .timeline_n_home ul li h4 { font-size: 17px !important;
+         font-family: 'Dosis', sans-serif; margin-top: 0px;
+         text-transform: none;
+         font-weight: normal;}
+         #team .col-sm-6{ width: 50%; }
+         .asseenheading { margin-left: 0px !important;
+         margin-top: 0px !important;
+         padding-top: 0 !important; }
+         .footer_asseen{ margin-right: 0px; }
+         .copyright.wow.fadeInUp.text-center {
+         font-size: 10px;
+         color: #fff;
+         }
+         .disclaimer{ font-size: 11px; margin-right: 0px !important; }
+         .live_cowndown ul{ margin-right: 0px; }
+         .live_cowndown ul li {
+         width: 36px; line-height: 30px;
+         }
+         .live_cowndown ul li span {
+         font-size: 33px;line-height: 41px;
+         }
+         .live_cowndown ul h5 {
+         display: inline-block;
+         vertical-align: top;
+         font-size: 27px;
+         margin-top: 3px;
+         }
+         .live_cowndown ul li p{ font-size: 8px; }
+         .home_top_play h3{ text-align: center !important; }
+         .home_top_play{ text-align: center !important; }
+         timeline-item head1 p {
+         font-size:1em;
+         }
+         .text-uppercase {
+         text-transform: uppercase !important;
+         margin-top: 0px;
+         font-size: 16px;
+         font-weight: 65;
+         margin-bottom: 0px;
+         }
+         .rounded-circle.img-responsive {
+         width: 60px;
+         height: 60px;
+         }
+         .sociallogo ul li a img {
+         color: rgb(255, 255, 255);
+         visibility: visible;
+         animation-name: fadeInUp;
+         font-size: 30px;
+         margin-top: 0px;
+         width: 40%;
+         }
+         p {
+         font-size: 12px;
+         line-height: 1.5;
+         margin-bottom: 0px;
+         }
+         .asseenheading {
+         color: rgb(255, 255, 255);
+         visibility: visible;
+         animation-name: fadeInUp;
+         font-size: 30px;
+         margin-top: 13px;
+         margin-left: 80px;
+         }
+         #hdrTxt {
+         font-size: 20px;
+         margin: 5px;
+         margin-left: 70px;
+         }
+         .form-control {
+         display: block;
+         width: 80%;
+         margin-left: 37px;
+         }
+         #registerfrm {
+         display: block;
+         width: 40%;
+         margin-left: 120px;
+         }
+         .container-page {
+         background-color: #161918;
+         color: #fff;
+         margin-top: 0px !important;
+         margin-left: -51px;
+         padding: 20px;
+         margin-right: -153px;
+         margin-bottom: -60px;
+         }
+         dl, ol, ul {
+         margin-top: 0;
+         margin-bottom: 1rem;
+         margin-right: 40px;
+         }
+         .navbar-brand {
+         display: inline-block;
+         padding-top: .3125rem;
+         padding-bottom: .3125rem;
+         margin-right: 1rem;
+         font-size: .75rem !important;
+         line-height: inherit;
+         white-space: nowrap;
+         }
+         #mainNav .navbar-toggler {
+         font-size: 15px;
+         padding: 8px 8px;
+         color: #fff;
+         margin-right: 0px;
+         }
+         header.masthead {
+         position: relative;
+         width: 100%;
+         padding-top: 95px;
+         padding-bottom: 20px;
+         color: #fff;
+         height: auto;
+         min-height: auto;
+         }
+         .home_feature_m_n ul{ margin-right: 0px; }
+         .home_feature_m_n ul li {
+         display: inline-block;
+         margin: 13px 0%; text-align: center;
+         }
+         .home_feature_m_n ul li img{ width: 90%; }
+         }
+         @media (min-width: 768px) and (max-width: 1024px) {
+         .home_top_play {
+         text-align: center !important;
+         }
+         .home_top_play h3 {
+         text-align: center !important;
+         }
+         section.download h2 {
+         font-size: 43px;
+         }
+         .sec_video_bar iframe{ width: 29%;
+         display: inline-block;
+         margin: 0 2%; }
+         .section2nd .card_img{ width: 100%; }
+         .home_card_text h3{ font-size: 29px; }
+         .home_card_text p {
+         font-size: 13px;
+         margin-top: 2px;
+         line-height: 20px;
+         }
+         .card_book_n{ padding: 8px 22px 8px 22px; font-size: 13px; }
+         .home_feature_m_n ul li {
+         display: inline-block;
+         margin: 13px 1%;
+         }
+         }
+         .container-page {
+         background-color: #343837;
+         color: #fff;
+         margin-top: 60px;
+         margin-left: -50px;
+         padding: 20px;
+         margin-right:-153px;
+         }
+         .bar-step {
+         position:absolute;
+         margin-top:-20px;
+         z-index:1;
+         font-size:12px;
+         }
+         .label-txt {
+         float: left;
+         }
+         .label-line {
+         float: right;
+         background: #fff;
+         height:50px;
+         width:1px;
+         margin-left: 5px;
+         }
+         .label-percent {
+         float: right;
+         margin-left: 5px;
+         }
+         * {
+         margin: 0;
+         padding: 0;
+         }
+         body {
+         background: #222;
+         font-family: Georgia, serif;
+         color: #fff;
+         font-size: 14px;
+         a {
+         color: #ffffcc;
+         text-decoration: none;
+         -webkit-transition: 0.5s;
+         -moz-transition: 0.5s;
+         -o-transition: 0.5s;
+         -ms-transition: 0.5s;
+         transition: 0.5s;
+         }
+         a:hover, a.selected {
+         color: #ffcc00;
+         }
+         h1, h2, h4, h5, h6 {
+         text-align: center;
+         color: #FFF;
+         text-shadow: #000 1px 1px 2px;
+         margin-bottom: 5px;
+         font-family:montserrat;
+         }
+         h1 {
+         font-size: 18px;
+         }
+         h2 {
+         font-size: 14px;
+         }
+         .sociales {
+         text-align: center;
+         margin-bottom: 20px;
+         }
+         #timeline {
+         width: 500px;
+         height: 600px;
+         overflow: hidden;
+         margin: 40px auto;
+         position: relative;
+         background: #000;
+         }
+         #dates {
+         width: 100px;
+         height: 600px;
+         overflow: hidden;
+         float: left;
+         }
+         #dates li {
+         list-style: none;
+         width: 100px;
+         height: 100px;
+         line-height: 100px;
+         font-size: 24px;
+         padding-left: 10px;
+         background:
+         url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
+         }
+         #dates a {
+         line-height: 38px;
+         padding-bottom: 10px;
+         }
+         #dates .selected {
+         font-size: 38px;
+         }
+         #issues {
+         width: 400px;
+         height: 600px;
+         overflow: hidden;
+         float: left;
+         }
+         #issues li {
+         max-width: 300px;
+         // width: 400px;
+         height: 600px;
+         list-style: none;
+         text-align: center;
+         // add
+         }
+         #issues li.selected img {
+         -webkit-transform:
+         scale(1.1, 1.1);
+         -moz-transform: scale(1.1, 1.1);
+         -o-transform: scale(1.1, 1.1);
+         -ms-transform: scale(1.1, 1.1);
+         transform: scale(1.1, 1.1);
+         }
+         #issues li img {
+         // float: left;
+         width: 200px;
+         // add margin: 10px 30px 10px 50px;
+         -ms-filter:
+         "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+         /* IE 8 */
+         filter:
+         progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);/*
+         IE 6 & 7 */
+         zoom: 1;
+         -webkit-transition: all 2s ease-in-out;
+         -moz-transition: all 2s ease-in-out;
+         -o-transition: all 2s ease-in-out;
+         -ms-transition: all 2s ease-in-out;
+         transition: all 2s ease-in-out;
+         -webkit-transform:
+         scale(0.7, 0.7);
+         -moz-transform: scale(0.7, 0.7);
+         -o-transform: scale(0.7, 0.7);
+         -ms-transform: scale(0.7, 0.7);
+         transform: scale(0.7, 0.7);
+         }
+         #issues li h1 {
+         color: #ffcc00;
+         font-size: 48px;
+         text-align: center;
+         text-shadow: #000 1px 1px 2px;
+         }
+         #issues li p {
+         font-size: 14px;
+         margin: 10px 20px;
+         font-weight: normal;
+         line-height: 22px;
+         text-shadow: #000 1px 1px 2px;
+         }
+         #grad_top, grad_bottom {
+         width: 500px;
+         height: 80px;
+         position: absolute;
+         }
+         #grad_top {
+         top: 0;
+         }
+         #grad_bottom {
+         bottom: 0;
+         }
+         #next, prev {
+         position: absolute;
+         left: 45%;
+         // left: 55%;
+         font-size: 70px;
+         width: 38px;
+         height: 22px;
+         background-position: 0 -44px;
+         background-repeat: no-repeat;
+         text-indent: -9999px;
+         overflow: hidden;
+         }
+         #next:hover, prev:hover {
+         background-position: 0 0;
+         }
+         #next {
+         bottom: 0;
+         background-image:
+         url('http://www.csslab.cl/ejemplos/timelinr/latest/images/next_v.png');
+         }
+         #prev {
+         top: 0;
+         background-image:
+         url('http://www.csslab.cl/ejemplos/timelinr/latest/images/prev_v.png');
+         }
+         #next.disabled, prev.disabled {
+         opacity: 0.2;
+         }
+         .fullscreen-bg {
+         position: fixed;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         overflow: hidden;
+         z-index: -100;
+         }
+         .fullscreen-bg__video {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 1200px;
+         height: 100%;
+         }
+         @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+         #myChart {
+         width:100%;
+         height:100%;
+         min-height:250px;
+         }
+         .zc-ref {
+         display: none;
+         }
+         navbar navbar-expand-lg navbar-light fixed-top {
+         position:fixed;
+         right:0px;
+         left:0px;
+         bottom:0px;
+         z-index:1030;
+         }
+         .home_feature_m_n ul{
+         margin:0px; padding: 0px;
+         }
+         .home_feature_m_n ul li {}
+      </style>
+<script src="https://cdn.zingchart.com/zingchart.min.js" type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script type="      eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"> zingchart.MODULESDIR =
+         "https://cdn.zingchart.com/modules/";
+         ZC.LICENSE =
+         ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];
+      </script>
+<link rel="canonical" href="https://www.enlte.com/" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113445547-1" type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-113445547-1');
+      </script>
+<script language="Javascript" type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         window.onload = function(){ document.getElementById("preloader").style.display = "none";
+          }  
+        
+         function myFunction() {
+           document.getElementById("preloader").style.overflow = "hidden";
+         }
+         $(document).ready(function () {
+         
+           // preloader
+           $(window).load(function(){
+             $('#preloader').delay(400).fadeOut(500);
+           })
+         
+         })
+        
+      </script>
+<script type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         $(function () {
+             var y = 0;
+             $(".enlte_btn_comty").click(function () {
+                 if (y == 0) {
+                     $(".enlte_community_m").animate({
+                         right: '+=207px'
+                     }, 'slow');
+                     y = 1;
+                 } else {
+                     $(".enlte_community_m").animate({
+                         right: '-=207px'
+                     }, 'slow');
+                     y = 0;
+                 }
+             });
+         });
+        
+        
+      </script>
+<meta name="google-site-verification" content="BWhnAjaC2ejS9s3lkXvYofHXNYlTKIX3i_ec50ZclBo" />
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="c6bac045e47eca5b8333e3fc-|49"></script><body onload="myFunction()" id="page-top" style=" background-repeat: no-repeat; background-size:cover;
+      background-attachment: fixed;   zoom: 90%;">
+<div id="preloader"> </div>
+<div class="loader"></div>
+<div class="enlte_community_m box">
+<div class="enlte_community_m_l">
+<a class="enlte_btn_comty" href="#">Text</a>
+</div>
+<div class="enlte_community_m_r ">
+<a target="_blank" href="https://web.telegram.org/#/im?p=s1375033596_11238579320042159580">Enlte Community</a>
+<a target="_blank" href="https://web.telegram.org/#/im?p=@enlte">Official Telegram Channel</a>
+<a target="_blank" href="https://t.me/enlte_tech">Technical Team</a>
+</div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<div class="container">
+<a class="navbar-brand js-scroll-trigger" href="https://exchange.enlte.com/web/">
+<img src="img/logo_w.png" alt="enlte logo" />
+</a>
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu <i class="fa fa-bars"></i> </button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto navigation_b_n">
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown" href="https://exchange.enlte.com/blog/">About us</a>
+<ul class="dropdown-menu">
+<li><a target="_blank" href="ourteam.php">Our Team</a></li>
+<li><a target="_blank" href="enltian/anupam_sharma.php">Anupam Sharma</a></li>
+<li><a target="_blank" href="enltian/sushant_sharma.php">Sushant Sharma</a></li>
+<li><a target="_blank" href="enltian/krishan_kumar.php">Krishan kumar</a></li>
+<li><a target="_blank" href="enltian/pradeep_kumar.php">Pradeep kumar</a></li>
+</ul>
+</li>
+<li class="nav-item"> <a class="nav-link js-scroll-trigger" target="_blank" href="/web/enlteweb/whitepaper_v_0.2.pdf">Whitepaper</a> </li>
+<li class="nav-item"> <a class="nav-link js-scroll-trigger" href="/web/enlteweb/transactions">Explorer</a> </li>
+<li class="nav-item"> <a class="nav-link js-scroll-trigger" target="_blank" href="/web/token_economy1.pdf">Token</a> </li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="/web/enlteweb/transactions/wallet_step_one.php">
+<blink>wcc-worldcash Wallet</blink>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown" href="https://exchange.enlte.com/blog/">Blog</a>
+<ul class="dropdown-menu">
+<li><a target="_blank" href="https://exchange.enlte.com/blog">Blog</a></li>
+<li><a target="_blank" href="https://exchange.enlte.com/blog/?cat=5">Announcement</a></li>
+<li><a target="_blank" href="https://exchange.enlte.com/blog/?cat=55">Updates</a></li>
+</ul>
+</li>
+<li class="nav-item"> <a class="nav-link js-scroll-trigger" href="https://enlte.com/"><img src="img/login_icon.png" alt="wcc-worldcash login icon" /></a></li>
+<li class="nav-item">
+<div id="google_translate_element"></div>
+<script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+                        function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                        }
+                     </script><script type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section>
+<header class="masthead new_banner_n">
+<div class="container">
+<script type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"> var vid = document.getElementById("bgvid"); function
+               setPlaySpeed() {
+                   vid.playbackRate = 0.1;
+               } 
+               function getPlaySpeed() {
+                   alert(vid.playbackRate);
+               }
+               
+            </script>
+<div class="n_main_t_banner_in">
+<div class="row">
+
+<div class="m_bg_images">
+<img src="img/bg_blk_n.gif" alt="img">
+
+</div>
+<div class="enlte_ex_app">
+<p class="getting_in_t_nd"><a style="color: #000; display: inline-block; vertical-align: text-bottom;
+                        background: #fff;  padding: 3px 14px;  border-radius: 37px;  margin-bottom: 4px;  font-size: 15px; font-weight: 400;" target="_blank" href="https://exchange.enlte.com">Explorer</a> <br>
+<a style="color: #fff;" target="_blank" href="https://www.enlte.com"> Enlte App and Enlte.com re-launching this april </a>
+</p>
+</div>
+<div class="coniexandyobit_m">
+<p class="getting_in_t"> <a style="color: #fff; display: inline-block; vertical-align: text-bottom;" target="_blank" href="https://etherscan.io/token/0x031ac79c8e01adbd6f305578107e5424f10dfbef">Contract address</a>
+</p>
+</div>
+<div class="enlte_exchange_btn">
+<div class="col-md-12">
+</br></br>
+<h1>Enlte decentralized <br> blockchain based ledger</h1>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div style="display: none;" class="right_getway_coins_bg_m">
+<h1>1000<span>Enlte<br> Per Platform Daily</span>
+</h1>
+<div class="joinnow_link">
+<a href="https://gleam.io/dq6es/enlte-mega-giveaway" target="_blank">&nbsp;</a>
+</div>
+<ul>
+<li><a href="https://twitter.com/enlte_official" target="_blank"><img src="img/share_s_tw.png" alt="enlte twitter"></a></li>
+<li><a href="https://www.facebook.com/enlte" target="_blank"><img src="img/share_s_fb.png" alt="enlte facebook"></a></li>
+<li><a href="https://in.linkedin.com/company/enlte" target="_blank"><img src="img/share_s_lin.png" alt="enlte linkedin"></a></li>
+<li><a href="https://www.youtube.com/enlte" target="_blank"><img src="img/share_s_you.png" alt="enlte youtube"></a></li>
+</ul>
+<span id="hm_timer"></span>
+<script type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+               $(function(){
+              
+               var countDownDate = new Date("September 7, 2018 23:59:50 GMT -07:00" ).getTime();
+               var now = new Date().getTime();
+              
+               var distance = countDownDate - now;
+               //var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+               var hr = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+               var mn = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+               var sec = Math.floor((distance % (1000 * 60)) / 1000);
+               //var miliseconds = Math.floor((distance % (1000 * 60 * 60 * 24 )) / 1000);
+               //var d = new Date("July 19, 2018 19:00:30");
+               //var hr=  d.getHours();
+               //var mn= d.getMinutes();
+               //var sec=  d.getSeconds();
+              
+              
+                   $('#hm_timer').countdowntimer({
+                       hours : hr,
+                       minutes :mn,
+               seconds :sec,
+                       size : "lg"
+                   });
+               });
+            </script>
+</div>
+</header>
+
+
+<section class="four_sec_exp_m_bg">
+<div class="row">
+<div class="col-md-12">
+<ul class="four_sec_exp_icons">
+<li style="background-color:#efefef;">
+<img style="width: 61px;" src="img/icon_new1.png" alt="enlte Total Users" />
+<h2>Blockchain
+Based <br>
+Email System
+</h2>
+<span><a href="https://bchain.email/">Research</a></span>
+</li>
+<li>
+<img style="width: 61px;" src="img/icon_new2.png" alt="enlte Total Pages" />
+<h2>Enlte
+Mobile <br>
+Application
+</h2>
+<span><a href="https://play.google.com/store/apps/details?id=com.mpas.enlte&hl=en">Live</a></span>
+</li>
+<li style="background-color:#efefef;">
+<img style="width: 61px;" src="img/icon_new3.png" alt="enlte Crypto Transactions" />
+<h2>Enlte
+Wallet <br>
+Application
+</h2>
+<span><a href="https://play.google.com/store/apps/details?id=com.enlte.wallet">Live</a></span>
+</li>
+<li>
+<img style="width: 61px;" src="img/icon_new4.png" alt="enlte Experiences Shared" />
+<h2>Enlte
+Web <br>
+Application
+</h2>
+<span><a href="https://enlte.com/">Research</a></span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<div class="phone_android_main_bg">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<div class="images_in_hand">
+<img src="img/hand_phone.gif" alt="img">
+</div>
+</div>
+<div class="col-md-7">
+<div class="powerofpeople_r">
+<h2>POWER TO THE PEOPLE!</h2>
+<p>Our app is available on <strong>android & IOS devices!</strong><br>
+Download now to get started!
+</p>
+<div class="apps_icon_for_d">
+<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mpas.enlte&hl=en"><img src="img/download_app_android.png" alt="Android"></a>
+
+<a target="_blank" href="https://enlte.com/"><img src="img/download_app_web.png" alt="Webapp"></a>
+</div>
+<div class="dashaed_n"></div>
+<div class="ico_rating_bar_n">
+<a target="_blank" href="https://icobench.com/ico/enlte"><img src="img/icon_rating_img.png" alt="Android"></a>
+<a target="_blank" href="https://icobazaar.com/v2/enlte"><img src="img/icon_bazar_img.png" alt="IOS"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container-fluid1" style="margin-top:0px; padding-top:40px;">
+<div class="">
+<div class="row ">
+
+<div class="row sec_video_bar">
+<iframe width="460" height="260" class="video " src="https://www.youtube.com/embed/F7D5bm7shYk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="460" height="260" class="video" src="https://www.youtube.com/embed/L3aEFc0zL8A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+</div> </div> </div>
+<style>
+         .timeline-content .head1 {
+         font-size:20px;
+         font-family: Montserrat;
+         }
+         .timeline {
+         position: relative;
+         }
+         .timeline::before {
+         content: "";
+         background: #c5cae9;
+         width: 5px;
+         height: 95%;
+         position: absolute;
+         left: 50%;
+         transform: translateX(-50%);
+         }
+         .timeline p { color: #fff; font-size:11px;
+         }
+         .timeline-item {
+         width: 100%;
+         margin-bottom: 70px;
+         }
+         .timeline-item:nth-child(even) .timeline-content {
+         float: right;
+         padding: 10px 30px 10px 30px;
+         }
+         .timeline-item:nth-child(even) .timeline-content .date {
+         right: auto;
+         left: 0;
+         }
+         .timeline-item:nth-child(even) .timeline-content::after {
+         content: "";
+         position: absolute;
+         border-style: solid;
+         width: 0;
+         height: 0;
+         top: 30px;
+         left: -15px;
+         border-width: 10px 15px 10px 0;
+         border-color: transparent #f5f5f5 transparent transparent;
+         }
+         .timeline-item::after {
+         content: "";
+         display: block;
+         clear: both;
+         }
+         .timeline-content {
+         position: relative;
+         width: 45%;
+         padding: 10px 30px;
+         border : 1px solid #fff;
+         border-radius: 4px;
+         background: none;
+         box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+         }
+         .timeline-content::after {
+         content: "";
+         position: absolute;
+         background:none;
+         border-style: solid;
+         width: 0;
+         height: 0;
+         top: 30px;
+         right: -15px;
+         border-width: 10px 0 10px 15px;
+         border-color: transparent transparent transparent #f5f5f5;
+         }
+         .timeline-img {
+         width: 30px;
+         height: 30px;
+         background: #ffc107; ;
+         border-radius: 50%;
+         position: absolute;
+         left: 50%;
+         margin-top: 25px;
+         margin-left: -15px;
+         }
+         .timeline a {
+         background: #3f51b5;
+         color: #000;
+         padding: 8px 20px;
+         text-transform: uppercase;
+         font-size: 14px;
+         margin-bottom: 20px;
+         margin-top: 10px;
+         display: inline-block;
+         border-radius: 2px;
+         box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+         }
+         .timeline a:hover, a:active1, a:focus {
+         background: #32408f;
+         color: #ffffff;
+         text-decoration: none;
+         }
+         .timeline-card {
+         padding: 0 !important;
+         }
+         .timeline-card p { color:#fff; font-size:11px;
+         padding: 0 20px;
+         }
+         .timeline-card a {
+         margin-left: 20px;
+         }
+         .timeline-item:nth-child(1) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("http://wkow.images.worldnow.com/images/23930295_SA.jpg") center
+         center no-repeat;
+         background-size: cover;
+         }
+         .timeline-item:nth-child(2) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("https://image.flaticon.com/icons/svg/123/123369.svg") center center
+         no-repeat;
+         background-size: 100px;
+         }
+         .timeline-item:nth-child(3) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("https://www.armytimes.com/resizer/hYvcWf47zP-QsBirtBZOYsXPmUA=/1200x0/filters:quality(100)/arc-anglerfish-arc2-prod-mco.s3.amazonaws.com/public/VWO6QZHYZ5CLHARS62RBY7CELA.jpg")
+         center center no-repeat;
+         background-size: cover;
+         }
+         .timeline-item:nth-child(5) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("https://hd.unsplash.com/photo-1444093826349-9ce8c622f4f3") center
+         center no-repeat;
+         background-size: cover;
+         }
+         .timeline-item:nth-child(6) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("https://hd.unsplash.com/photo-1471479917193-f00955256257") center
+         center no-repeat;
+         background-size: cover;
+         }
+         .timeline-item:nth-child(8) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("img/12.png") center center no-repeat;
+         background-size: cover;
+         }
+         .timeline-item:nth-child(10) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("https://hd.unsplash.com/photo-1447639703758-f525f36456bf") center
+         center no-repeat;
+         background-size: cover;
+         }
+         .timeline-item:nth-child(11) .timeline-img-header {
+         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+         url("https://hd.unsplash.com/photo-1469429978400-082eec725ad5") center
+         center no-repeat;
+         background-size: cover;
+         }
+         .timeline-img-header {
+         height: 200px;
+         position: relative;
+         margin-bottom: 20px;
+         }
+         .timeline-img-header h2 {
+         color: #ffffff;
+         position: absolute;
+         bottom: 5px;
+         left: 20px;
+         }
+         .container::after { content: '';
+         position: absolute;
+         width: 25px;
+         height: 25px;
+         right: -17px;
+         top: 15px;
+         border-radius: 50%;
+         z-index: 1;
+         }
+         blockquote {
+         margin-top: 30px;
+         color: #757575;
+         border-left-color: #3f51b5;
+         padding: 0 20px;
+         }
+         @media screen and (max-width: 2048px) and (min-width: 1024px){ .date {
+         background: #0b98b3;
+         display: inline-block;
+         color: #ffffff;
+         padding: 10px;
+         position: absolute;
+         top: 0;
+         right: 0;
+         }
+         .sec_video_bar iframe {
+         width: 45%;
+         display: inline-block;
+         margin: 0 2%;
+         }
+         }
+         .sec_video_bar {
+         margin: 0 auto;
+         padding-top: 2px;
+         padding-bottom: 44px;
+         width: 80%;
+         }
+         @media screen and (max-width: 1024px) and (min-width: 768px){ .date {
+         background: #0b98b3;
+         display: inline-block;
+         color: #ffffff;
+         position: absolute;
+         top: 0;
+         right: 0;
+         }
+         }
+         @media screen and (max-width: 768px) {
+         .timeline::before {
+         left: 50px;
+         }
+         .date{ background: #0b98b3;
+         display: inline-block;
+         color: #ffffff;
+         /* padding: 13px; */
+         position: absolute;
+         top: -10px;
+         right: 0;
+         }
+         .timeline .timeline-img {
+         left: 50px;
+         }
+         .timeline .timeline-content {
+         max-width: 100%;
+         width: auto;
+         margin-left: 70px;
+         }
+         .timeline-content .head1 {
+         font-size:18px;
+         font-family: Montserrat;
+         }
+         .timeline .timeline-item:nth-child(even) .timeline-content {
+         float: none;
+         }
+         .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+         content: "";
+         position: absolute;
+         border-style: solid;
+         width: 0;
+         height: 0;
+         top: 30px;
+         left: -15px;
+         border-width: 10px 15px 10px 0;
+         border-color: transparent #f5f5f5 transparent transparent;
+         }
+         }
+         #timeVideo {
+         position: fixed;
+         right: 0;
+         bottom: 0;
+         min-width: 100%;
+         min-height: 100%;
+         }
+      </style>
+<script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"> $(function(){
+         window.sr = ScrollReveal();
+         if ($(window).width() < 768) {
+         if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+         $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+         }
+         sr.reveal('.js--fadeInRight', {
+            origin: 'right',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+          });
+         } else {
+        
+         sr.reveal('.js--fadeInLeft', {
+            origin: 'left',
+            distance: '300px',
+           easing: 'ease-in-out',
+            duration: 800,
+          });
+          sr.reveal('.js--fadeInRight', {
+            origin: 'right',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+          });
+         }
+        
+         sr.reveal('.js--fadeInLeft', {
+            origin: 'left',
+            distance: '300px',
+           easing: 'ease-in-out',
+            duration: 800,
+          });
+          sr.reveal('.js--fadeInRight', {
+            origin: 'right',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+          });
+         });
+      </script> 
+
+
+
+<div class="gray-wrapper" style="background-color: #060606;
+         background:transparent url(img/secccc.png) no-repeat center center
+         /cover; opacity:1.2">
+</div>
+</div>
+</div> </div>
+
+
+
+
+
+<section style="margin-top:0px;background-color:black;width:100%" class="sociallogo vertical-center text-center">
+<div class="container">
+<div class="row ">
+
+<h2 class="asseenheading">As seen on</h2>
+<ul class="footer_asseen">
+<li><a href="https://startupsuccessstories.in/tag/anupam-sharma/" target="_blank" style="color:white;"><img src="social_logo/startup.png" class="social_logos_img"></a></li>
+<li><a href="https://www.buzzfeed.com/amarpreetkaur701/enlte-to-end-asocial-sayapaa-37zo9?utm_term=.dbL39AD7LP#.kjdK5R4nob" target="_blank" style="color:white;"><img src="social_logo/buzz.png" class="social_logos_img"> </a></li>
+<li><a href="https://in.linkedin.com/company/enlte" target="_blank" style="color:white;"><img src="social_logo/linkedin.png" class="social_logos_img"></a></li>
+
+<li>
+<a href="https://www.facebook.com/enlte/" target="_blank" style="color:white;"><img src="social_logo/fb.png" class="social_logos_img"></a>
+</li>
+
+<li><a href="https://twitter.com/enlte_official" target="_blank" style="color:white;"><img src="social_logo/twitter.png" class="social_logos_img"></a></li>
+<li><a href="https://www.youtube.com/channel/UCbwXz_HV78-nz0oOs9eg-tQ" target="_blank" style="color:white;"><img src="social_logo/youtube.png" class="social_logos_img"></a></li>
+<li>
+<a href="https://yourstory.com/read/7b500c6387-social-media-for-a-soc" target="_blank" style="color:white;">
+<img src="social_logo/yourstory.png" class="social_logos_img">
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/enlte_official/" target="_blank" style="color:white;">
+<img src="social_logo/insta.png" class="social_logos_img">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<footer>
+<div class="container">
+<div class="row footer">
+<div class="col-md-12">
+<div class="social-contact text-center" style="">
+<div class="clearfix"></div>
+<br><br>
+<div class="col-md-12">
+<span class="follow">FOLLOW US</span>
+<div class="clearfix"></div>
+<br>
+<ul class="list-inline col-xs-12" style="margin-top:10px; color:#fff; text-align:center;">
+<a href="https://www.facebook.com/enlte"><i class="fab
+                              fa-facebook fa-3x"></i></a> <a href="https://twitter.com/enlte_official"><i class="fab
+                              fa-twitter-square fa-3x"></i></a> <a href="https://www.youtube.com/channel/UCbwXz_HV78-nz0oOs9eg-tQ"><i class="fab fa-youtube-square fa-3x"></i></a> <a href="https://t.me/enlte"><i class="fab fa-telegram fa-3x"></i></a> <a href="https://bitcointalk.org/index.php?topic=2985619"> <i class="fab fa-bitcoin fa-3x"></i></a> <a href="https://www.linkedin.com/company/enlte/"><i class="fab fa-linkedin fa-3x"></i></a> <a href="https://github.com/enlte"><i class="fab fa-github fa-3x"></i></a> <a href="https://reddit.com/user/enlte">
+<i class="fab fa-reddit fa-3x"></i></a>
+<a href="https://www.instagram.com/enlte_official/"><i class="fab fa-instagram fa-3x"></i></a>
+</ul>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<br>
+<div class="col-md-12">
+<div class="text-center">
+<div class="clearfix"></div>
+<br>
+<p class="copyright text-center" style="visibility: visible;>
+                        <i class=" fa fa-copyright"></i> 2018-2019 enlte.
+All Rights Reserved. | <a href="privacypolicy.php" style="color:white;">Privacy Policy </a>
+</p>
+<hr style="border-top:1px
+                        solid #efefef">
+<p class="disclaimer">We are on a mission to create a
+database of all of experiences around the world and create a location
+based small world where each and every experience is easily accessible
+to us so that we can get real time updates of good and bad experiences
+happening around us to make us socially aware and unite against social
+injustice. We give each one of us equal power to express how do you feel
+and broadcast to the nearby world using your identity or anonymously. We
+encourage you to be a part of this mission, share your experiences and
+log_in to make your nearby world a better place to live.
+</p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="telegram-fixed-bottom-right telegram-bounce">
+<a target="_blank" href="https://t.me/enltecom">
+<i class="fab fa-telegram-plane"></i>
+<div class="add_in_tele">30.6K</div>
+</a>
+</div>
+<div class="fix_footer_hight_l_bg">
+<div class="">
+<div class="col-md-12">
+
+
+
+
+<h2 style="font-size: 19px; font-weight: 400; color: #fff;"><marquee behavior="scroll" direction="left" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.stop();" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.start();" data-cf-modified-c6bac045e47eca5b8333e3fc-="">Enlte to launch its blockchain based email system based on enlte blockchain. It will use the similar technique used in enlte app to send messages. </marquee></h2>
+</div>
+</div>
+</div>
+
+<script src="vendor/jquery/jquery.min.js" type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+
+<script src="vendor/jquery-easing/jquery.easing.min.js" type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+
+<script src="js/new-age.min.js" type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>   <script type="   eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"> var google_tag_params = { dynx_itemid:
+         'REPLACE_WITH_VALUE', dynx_itemid2: 'REPLACE_WITH_VALUE', dynx_pagetype:
+         'REPLACE_WITH_VALUE', dynx_totalvalue: 'REPLACE_WITH_VALUE',
+         };
+      </script> <script type="      eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"> /* <![CDATA[ */ var
+         google_conversion_id = 834623088; var google_custom_params =
+         window.google_tag_params; var google_remarketing_only = true; /* ]]> */
+      </script> <script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript" src="//www.googleadservices.com/pagead/conversion.js"> </script>
+<noscript>
+         <div style="display:inline;"> <img height="1" width="1"
+            style="border-style:none;" alt=""
+            src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/834623088/?guid=ON&amp;script=0"/> </div>
+      </noscript>
+<style type="text/css">
+         .telegram-fixed-bottom-right{position:fixed;bottom:5%;right:2%;width:50px;height:50px;z-index:100;animation-delay:2s;background:#1baed2;color:#fff;border-radius:50%;text-align:center;font-size:30px;padding:5px 0 0;box-shadow:2px 2px 5px #333}
+         .telegram-fixed-bottom-right:hover{background:#1d92af}
+         .telegram-fixed-bottom-right a{color:#fff}
+         .telegram-fixed-bottom-right img{width:100%}
+         .telegram-bounce{animation:telegram-bounce 5s infinite;animation-name:telegram-bounce;transform-origin:center bottom}@keyframes telegram-bounce{2%,6%,8%,from,to{animation-timing-function:cubic-bezier(.215,.61,.355,1);transform:translate3d(0,0,0)}4%,5%{animation-timing-function:cubic-bezier(.755,.05,.855,.06);transform:translate3d(0,-30px,0)}7%{animation-timing-function:cubic-bezier(.755,.05,.855,.06);transform:translate3d(0,-15px,0)}9%{transform:translate3d(0,-4px,0)}}
+         .add_in_tele{font-size: 11px;
+         font-weight: normal;
+         position: absolute;
+         top: -11px;
+         left: 24px;
+         background: #fff;
+         color: #1baed2;
+         padding: 2px 8px;
+         border-radius: 26px;
+         font-family: arial;
+         border: 1px solid #1baed2;}
+         .section--white {
+         background-color: #FFFFFF;
+         }
+         .section--red {
+         background-color: #E74C3C;
+         }
+         .section--purple {
+         background-color: #D6A8E9;
+         }
+         .section--blue {
+         background-color: #33CCF7;
+         }
+         .section--yellow {
+         background-color: #F4E9B4;
+         }
+         .section--green {
+         background-color: #80D99D;
+         }
+         .section--cyan{
+         background-color: #80D99D;
+         }
+         .section--pale{
+         background-color: #F4E9B4;
+         }
+         .col_third section { margin: 0; }
+         .icn_red { color: #FF3D6A; }
+         .icn_purple { color: #9B59B6; }
+         .icn_blue{ color: #3498DB; }
+         .icn_yellow { color: #F1C40F; }
+         .icn_green { color: #80D99D; }
+         /*-=-=-=-=-=-=-=-=-=-*/
+         /* Wow Image */
+         /*-=-=-=-=-=-=-=-=-= */
+         .service-section {
+         margin: 20px 0;
+         position: relative;
+         overflow: hidden;
+         }
+         .wow_imgage {
+         position: relative;
+         float: left;
+         margin: 0 20px 20px 0;
+         width: 270px;
+         height: 180px;
+         }
+         .wow_imgage img {
+         border: 4px solid #e4e4e1;
+         }
+         /*-=-=-=-=-=-=-=-=-=-*/
+         /* Column Grids */
+         /*-=-=-=-=-=-=-=-=-= */
+         .col_half { width: 49%; }
+         .col_third { width: 32%; }
+         .col_fourth { width: 23.5%; }
+         .col_fifth { width: 18.4%; }
+         .col_sixth { width: 15%; }
+         .col_three_fourth { width: 74.5%;}
+         .col_twothird{ width: 66%;}
+         .col_half,
+         .col_third,
+         .col_twothird,
+         .col_fourth,
+         .col_three_fourth,
+         .col_fifth{
+         position: relative;
+         display:inline;
+         display: inline-block;
+         float: left;
+         margin-right: 2%;
+         margin-bottom: 20px;
+         }
+         .end { margin-right: 0 !important; }
+         /*-=-=-=-=-=-=-=-=-=-*/
+         /* Links */
+         /*-=-=-=-=-=-=-=-=-= */
+         a { text-decoration: none; color: #666666;}
+         a:hover, a:active { outline: 0; color: #666666; }
+      </style>
+<script type="c6bac045e47eca5b8333e3fc-text/javascript">
+         (function() {
+           var Util,
+             __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+        
+           Util = (function() {
+             function Util() {}
+        
+             Util.prototype.extend = function(custom, defaults) {
+               var key, value;
+               for (key in custom) {
+                 value = custom[key];
+                 if (value != null) {
+                   defaults[key] = value;
+                 }
+               }
+               return defaults;
+             };
+        
+             Util.prototype.isMobile = function(agent) {
+               return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(agent);
+             };
+        
+             return Util;
+        
+           })();
+        
+           this.WOW = (function() {
+             WOW.prototype.defaults = {
+               boxClass: 'wow',
+               animateClass: 'animated',
+               offset: 0,
+               mobile: true
+             };
+        
+             function WOW(options) {
+               if (options == null) {
+                 options = {};
+               }
+               this.scrollCallback = __bind(this.scrollCallback, this);
+               this.scrollHandler = __bind(this.scrollHandler, this);
+               this.start = __bind(this.start, this);
+               this.scrolled = true;
+               this.config = this.util().extend(options, this.defaults);
+             }
+        
+             WOW.prototype.init = function() {
+               var _ref;
+               this.element = window.document.documentElement;
+               if ((_ref = document.readyState) === "interactive" || _ref === "complete") {
+                 return this.start();
+               } else {
+                 return document.addEventListener('DOMContentLoaded', this.start);
+               }
+             };
+        
+             WOW.prototype.start = function() {
+               var box, _i, _len, _ref;
+               this.boxes = this.element.getElementsByClassName(this.config.boxClass);
+               if (this.boxes.length) {
+                 if (this.disabled()) {
+                   return this.resetStyle();
+                 } else {
+                   _ref = this.boxes;
+                   for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+                     box = _ref[_i];
+                     this.applyStyle(box, true);
+                   }
+                   window.addEventListener('scroll', this.scrollHandler, false);
+                   window.addEventListener('resize', this.scrollHandler, false);
+                   return this.interval = setInterval(this.scrollCallback, 50);
+                 }
+               }
+             };
+        
+             WOW.prototype.stop = function() {
+               window.removeEventListener('scroll', this.scrollHandler, false);
+               window.removeEventListener('resize', this.scrollHandler, false);
+               if (this.interval != null) {
+                 return clearInterval(this.interval);
+               }
+             };
+        
+             WOW.prototype.show = function(box) {
+               this.applyStyle(box);
+               return box.className = "" + box.className + " " + this.config.animateClass;
+             };
+        
+             WOW.prototype.applyStyle = function(box, hidden) {
+               var delay, duration, iteration;
+               duration = box.getAttribute('data-wow-duration');
+               delay = box.getAttribute('data-wow-delay');
+               iteration = box.getAttribute('data-wow-iteration');
+               return box.setAttribute('style', this.customStyle(hidden, duration, delay, iteration));
+             };
+        
+             WOW.prototype.resetStyle = function() {
+               var box, _i, _len, _ref, _results;
+               _ref = this.boxes;
+               _results = [];
+               for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+                 box = _ref[_i];
+                 _results.push(box.setAttribute('style', 'visibility: visible;'));
+               }
+               return _results;
+             };
+        
+             WOW.prototype.customStyle = function(hidden, duration, delay, iteration) {
+               var style;
+               style = hidden ? "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;" : "visibility: visible;";
+               if (duration) {
+                 style += "-webkit-animation-duration: " + duration + "; -moz-animation-duration: " + duration + "; animation-duration: " + duration + ";";
+               }
+               if (delay) {
+                 style += "-webkit-animation-delay: " + delay + "; -moz-animation-delay: " + delay + "; animation-delay: " + delay + ";";
+               }
+               if (iteration) {
+                 style += "-webkit-animation-iteration-count: " + iteration + "; -moz-animation-iteration-count: " + iteration + "; animation-iteration-count: " + iteration + ";";
+               }
+               return style;
+             };
+        
+             WOW.prototype.scrollHandler = function() {
+               return this.scrolled = true;
+             };
+        
+             WOW.prototype.scrollCallback = function() {
+               var box;
+               if (this.scrolled) {
+                 this.scrolled = false;
+                 this.boxes = (function() {
+                   var _i, _len, _ref, _results;
+                   _ref = this.boxes;
+                   _results = [];
+                   for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+                     box = _ref[_i];
+                     if (!(box)) {
+                       continue;
+                     }
+                     if (this.isVisible(box)) {
+                       this.show(box);
+                       continue;
+                     }
+                     _results.push(box);
+                   }
+                   return _results;
+                 }).call(this);
+                 if (!this.boxes.length) {
+                   return this.stop();
+                 }
+               }
+             };
+        
+             WOW.prototype.offsetTop = function(element) {
+               var top;
+               top = element.offsetTop;
+               while (element = element.offsetParent) {
+                 top += element.offsetTop;
+               }
+               return top;
+             };
+        
+             WOW.prototype.isVisible = function(box) {
+               var bottom, offset, top, viewBottom, viewTop;
+               offset = box.getAttribute('data-wow-offset') || this.config.offset;
+               viewTop = window.pageYOffset;
+               viewBottom = viewTop + this.element.clientHeight - offset;
+               top = this.offsetTop(box);
+               bottom = top + box.clientHeight;
+               return top <= viewBottom && bottom >= viewTop;
+             };
+        
+             WOW.prototype.util = function() {
+               return this._util || (this._util = new Util());
+             };
+        
+             WOW.prototype.disabled = function() {
+               return !this.config.mobile && this.util().isMobile(navigator.userAgent);
+             };
+        
+             return WOW;
+        
+           })();
+        
+         }).call(this);
+        
+        
+         wow = new WOW(
+           {
+             animateClass: 'animated',
+             offset: 100
+           }
+         );
+         wow.init();
+        
+        
+        
+      </script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js" type="  eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript"></script>
+<script type="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript" src="js/jquery.downCount.js"></script>
+<script type="    eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript">
+         $(document).ready(function() {
+         $('.countdown').downCount({
+         date: '09/03/2018 07:30:00',
+           offset: +1
+         });
+         });
+      </script>
+<script type="c6bac045e47eca5b8333e3fc-text/javascript">
+         var scrollingUp = 0;
+         window.setInterval(scrollit, 8000);
+         function scrollit() {
+             if(scrollingUp == 0) {
+                 $('#scroller').delay(3000).animate({ scrollTop: $("#scroller").scrollTop() + 26 }, 'slow');
+             }
+         }
+        
+         $('#scroller').bind('scroll', function () {
+             $('#status').html(scrollingUp);
+            
+             if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+                 scrollingUp = 1;     
+                 $('#scroller').delay(3000).animate({ scrollTop: 0 }, 1000, function() {
+                     scrollingUp = 0;   
+                 });
+             }
+         });
+      </script>
+<script type="      eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-text/javascript" src="js/jquery.countdownTimer.js"></script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="     eyJrIjoiMTdkMWZmNWE1ZTg0YzA3ZTNkZTUyZDFlOWNkZDkwMjA1MzY3OTc4OCIsIm4iOiJ3Y2N3b3JsZGNhc2guZ3JhZmFuYS5uZXQiLCJpZCI6MzM5NTU3fQ==-|01" defer=""></script></body>
+</html>
